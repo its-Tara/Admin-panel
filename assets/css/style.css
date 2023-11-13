@@ -1,0 +1,51 @@
+@font-face {
+    font-family: IRANSans;
+    src: url(../fonts/IRANSans/IRANSansWeb_Light.woff) format("woff");
+}
+
+
+*{
+    direction: rtl;
+    text-align: right;
+    font-family: IRANSans;
+}
+:root{
+    --gray: #92a8d1;
+
+    --blue: #3077a9;
+
+    --beige: #f7cac9;
+
+    --pink: #e43825;
+
+    --green:#96C291;
+
+    --peach: #FFB7B7;
+
+    --purple:#B0578D;
+
+    --violet:#D988B9;
+
+    --orange : #FF9209;
+}
+.pointer{
+    cursor: pointer;
+}
+.purple{
+    background-color: var(--purple);
+}
+.blue{
+    background-color: var(--blue);
+}
+.green{
+    background-color: var(--green);
+}
+.peach{
+    background-color: var(--peach);
+}
+.gray{
+    background-color: var(--gray);
+}
+.orange{
+    background-color: var(--orange);
+}
